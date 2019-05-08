@@ -4,18 +4,22 @@ header {
 }
 
 h1 {
-    color: #4aaaa5;
+    color: rgb(217, 121, 255);
     font-family: 'Georgia', Times 'Times New Roman', Times, serif;
 }
-hr {
-    color: teal;
+.hr {
     size: 10px;
+    color: teal;
 }
 p {
     line-height: 1.5em;
 }
 .header-name {
     font-size: 25px;
+    display: inline-block;
+    background: rgb(220, 144, 255);
+    color: white;
+    padding: 10px;
 }
 .header-div {
     display: inline-block;
@@ -24,9 +28,20 @@ p {
     float: right;
     font-size: 1.0em;
 }
+.header-links a {
+    display: inline-block;
+    padding: 10px;
+}
 .profile-image {
     width: 150px;
     height: 150px;
     float: left;
     margin: 10px;
+}
+.footer {
+    background: grey;
+    padding: 30px 50px 5px 50px;
+    font-size: 12px;
+    text-align: center;
+
 }
