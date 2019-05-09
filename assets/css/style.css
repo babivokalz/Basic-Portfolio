@@ -3,21 +3,22 @@ header {
 }
 
 h1 {
-    color: rgb(217, 121, 255);
+    color: rgb(235, 169, 252);
     font-family: Arial, Helvetica, sans-serif
 }
 .hr {
     size: 10px;
-    color: teal;
 }
 p {
     line-height: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.925);
+    text-align: left;
 }
 .header-name {
     font-size: 25px;
     display: inline-block;
-    background: rgb(220, 144, 255);
+    background: rgb(236, 162, 255);
     color: white;
     padding: 10px;
 }
@@ -33,22 +34,25 @@ p {
     padding: 15px;
 }
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     float: left;
-    margin: 10px;
+    margin: 7px 10px 4px 0px;
 }
 .footer {
-    background: rgb(244, 128, 255);
-    padding: 30px 50px 5px 50px;
+    background: rgb(236, 158, 243);
+    padding: 35px 50px 5px 50px;
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    position: 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 body {
     background-repeat: repeat-x;
     background-position: center;
     background-attachment: fixed;
-    background-size: 37.0em;
+    background-size: 37em;
 }
