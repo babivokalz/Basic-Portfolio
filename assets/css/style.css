@@ -1,11 +1,10 @@
 header {
-    
-    font-family: 'Georgia', Times 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 h1 {
     color: rgb(217, 121, 255);
-    font-family: 'Georgia', Times 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 .hr {
     size: 10px;
@@ -13,6 +12,7 @@ h1 {
 }
 p {
     line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header-name {
     font-size: 25px;
@@ -39,11 +39,16 @@ p {
     margin: 10px;
 }
 .footer {
-    background: grey;
+    background: rgb(244, 128, 255);
     padding: 30px 50px 5px 50px;
     font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    position: 
 }
-.background {
-    background-color: white;
+body {
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 37.0em;
 }
