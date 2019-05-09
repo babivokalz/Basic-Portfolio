@@ -12,8 +12,9 @@ h1 {
 p {
     line-height: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgba(255, 255, 255, 0.925);
+    color: black;
     text-align: left;
+    font-size: 16px;
 }
 .header-name {
     font-size: 25px;
@@ -55,4 +56,9 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: 37em;
+}
+.background-size {
+    background-color: white;
+    margin: 0 100px 0 100px;
+    padding: 0 20px;
 }
