@@ -40,7 +40,7 @@ p {
   width: 160px;
   height: 160px;
   float: left;
-  padding: 7px 12px 4px 6px;
+  padding: 7px 12px 0px 6px;
 }
 .footer {
   background: rgb(236, 158, 243);
@@ -71,7 +71,7 @@ body {
   width: 960px;
 }
 hr {
-  border-top: 3px solid purple;
+  border-top: 2px solid purple;
 }
 #line {
   width: 920px;
@@ -105,7 +105,14 @@ hr {
   margin: 0 0 0 15px;
   line-height: 1.5em;
 }
-.background-size.2 {
-  padding: 0 5px;
-  width: 960px;
+.column {
+  flex: 50%;
+  padding: 0 20px;
+}
+.column img {
+  margin-top: 18px;
+  margin-right: 20px;
+  width: 145px;
+  height: 120px;
+  margin-bottom: 5px;
 }
