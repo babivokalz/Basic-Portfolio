@@ -1,64 +1,72 @@
 header {
-    font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
 }
 
 h1 {
-    color: rgb(235, 169, 252);
-    font-family: Arial, Helvetica, sans-serif
+  color: rgb(235, 169, 252);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hr {
-    size: 10px;
+  size: 10px;
 }
 p {
-    line-height: 1.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
-    text-align: left;
-    font-size: 16px;
+  line-height: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 16px;
 }
 .header-name {
-    font-size: 25px;
-    display: inline-block;
-    background: rgb(236, 162, 255);
-    color: white;
-    padding: 10px;
+  font-size: 25px;
+  display: inline-block;
+  background: rgb(236, 162, 255);
+  color: white;
+  padding: 10px;
 }
 .header-div {
-    display: inline-block;
+  display: inline-block;
 }
 .header-links {
-    float: right;
-    font-size: 1.0em;
+  float: right;
+  font-size: 1em;
 }
 .header-links a {
-    display: inline-block;
-    padding: 15px;
+  display: inline-block;
+  padding: 15px;
 }
 .profile-image {
-    width: 160px;
-    height: 160px;
-    float: left;
-    margin: 7px 10px 4px 0px;
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin: 7px 10px 4px 0px;
 }
 .footer {
-    background: rgb(236, 158, 243);
-    padding: 35px 50px 5px 50px;
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  background: rgb(236, 158, 243);
+  padding: 35px 50px 5px 50px;
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 body {
-    background-repeat: repeat-x;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 37em;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 37em;
 }
 .background-size {
-    background-color: white;
-    margin: 0 100px 0 100px;
-    padding: 0 20px;
+  background-color: white;
+  margin: 30px auto;
+  padding: 0 2px;
+  width: 960px;
+}
+.header-align {
+  margin: 0 auto;
+  width: 960px;
 }
