@@ -16,13 +16,13 @@
         <a href="contact.html">Contact</a>
       </div>
     </header>
+    <hr />
     <article class="background-size">
-      <hr />
       <article>
         <h1>Contact</h1>
-        <hr />
+        <hr id="line" />
         <form>
-          <label for="name">Name:</label><br />
+          <label for="name" id="name-position">Name:</label><br />
           <input
             type="text"
             id="fname"
@@ -30,7 +30,7 @@
             style="width:900px"
           />
           <br />
-          <label for="email">Email:</label><br />
+          <label for="email" id="email-position">Email:</label><br />
           <input
             type="text"
             id="email"
@@ -38,13 +38,13 @@
             style="width:900px"
           />
           <br />
-          <label for="message">Message:</label><br />
+          <label for="message" id="message-position">Message:</label><br />
           <textarea
             id="message"
             name="message"
-            style="height:300px; width:900px;"
+            style="height:250px; width:900px;"
           ></textarea>
-          <br /><input type="submit" value="Submit" />
+          <br /><input type="submit" id="submit" value="Submit" />
           <footer>
             <div class="footer">Copyright &copy; Wendy Chen</div>
           </footer>

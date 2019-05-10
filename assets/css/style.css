@@ -6,9 +6,8 @@ header {
 h1 {
   color: rgb(235, 169, 252);
   font-family: Arial, Helvetica, sans-serif;
-}
-.hr {
-  size: 10px;
+  font-size: 30px;
+  padding: 20px 5px 0px 15px;
 }
 p {
   line-height: 1.5em;
@@ -17,6 +16,7 @@ p {
   color: black;
   text-align: left;
   font-size: 16px;
+  padding: 0 10px 15px 10px;
 }
 .header-name {
   font-size: 25px;
@@ -40,7 +40,7 @@ p {
   width: 160px;
   height: 160px;
   float: left;
-  margin: 7px 10px 4px 0px;
+  padding: 7px 12px 4px 6px;
 }
 .footer {
   background: rgb(236, 158, 243);
@@ -68,5 +68,44 @@ body {
 }
 .header-align {
   margin: 0 auto;
+  width: 960px;
+}
+hr {
+  border-top: 3px solid purple;
+}
+#line {
+  width: 920px;
+}
+
+#fname {
+  margin: 0 0 0 15px;
+}
+#email {
+  margin: 0 0 0 15px;
+}
+#message {
+  margin: 0 0 0 15px;
+}
+
+#submit {
+  margin: 8px 0 8px 15px;
+  background-color: rgb(240, 129, 255);
+  width: 8em;
+  height: 3em;
+}
+#message-position {
+  margin: 0 0 0 15px;
+  line-height: 1.5em;
+}
+#name-position {
+  margin: 0 0 0 15px;
+  line-height: 1.5em;
+}
+#email-position {
+  margin: 0 0 0 15px;
+  line-height: 1.5em;
+}
+.background-size.2 {
+  padding: 0 5px;
   width: 960px;
 }
