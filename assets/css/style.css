@@ -75,6 +75,7 @@ hr {
 }
 #line {
   width: 920px;
+  margin: -20 0 0 0 0;
 }
 
 #fname {
@@ -115,4 +116,19 @@ hr {
   width: 145px;
   height: 120px;
   margin-bottom: 5px;
+}
+a:link {
+  color: pink;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: teal;
+}
+a:active {
+  color: grey;
+}
+.container {
+  position: relative;
 }
