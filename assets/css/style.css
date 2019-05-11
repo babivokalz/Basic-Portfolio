@@ -58,7 +58,8 @@ body {
   background-repeat: repeat-x;
   background-position: center;
   background-attachment: fixed;
-  background-size: 37em;
+  background-size: 586px;
+  background-color: white;
 }
 .background-size {
   background-color: white;
@@ -106,9 +107,14 @@ hr {
   margin: 0 0 0 15px;
   line-height: 1.5em;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 .column {
   flex: 50%;
-  padding: 0 20px;
+  padding: 0 10px 10px 15px;
 }
 .column img {
   margin-top: 18px;
@@ -116,6 +122,7 @@ hr {
   width: 145px;
   height: 120px;
   margin-bottom: 5px;
+  vertical-align: middle;
 }
 a:link {
   color: pink;
@@ -129,6 +136,52 @@ a:hover {
 a:active {
   color: grey;
 }
-.container {
+.image {
   position: relative;
+  width: 100%;
+}
+h2 {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  color: white;
+  font-size: 17px;
+  background-color: purple;
+  padding: 5px 37px 3px 35px;
+}
+h3 {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  color: white;
+  font-size: 16px;
+  background-color: purple;
+  padding: 5px 24px 3px 35px;
+}
+h4 {
+  position: absolute;
+  top: 87px;
+  left: 0;
+  color: white;
+  font-size: 16px;
+  background-color: purple;
+  padding: 5px 31px 3px 35px;
+}
+h5 {
+  position: absolute;
+  top: 82px;
+  left: 0;
+  color: white;
+  font-size: 15px;
+  background-color: purple;
+  padding: 5px 8px 3px 6px;
+}
+h6 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  color: white;
+  font-size: 13px;
+  background-color: purple;
+  padding: 5px 16px 3px 16px;
 }
